@@ -21,7 +21,7 @@
 
   var html = '';
   for(let i = 0; i < lagu.length; i++) {
-    const [judul, penyanyi, suka, putar, gambar] = lagu[i];
+    var [judul, penyanyi, suka, putar, gambar] = lagu[i];
     html += `
       <div class="lagu">
         <img src="img/${gambar}" alt="Cover ${judul}" />
