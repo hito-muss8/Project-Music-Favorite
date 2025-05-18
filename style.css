@@ -1,0 +1,63 @@
+html, body{
+    font-family: "Lato", sans-serif;
+    background: linear-gradient( #184b6b,black 20%);
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.lagu{
+    background: #ffffff;
+    border-radius: 8px;
+    width: 15%;
+    text-align: start;
+    padding: 8px;
+    margin: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.lagu:hover {
+    transform: scale(1.1);
+  }
+
+.lagu h2{
+    margin: 0;
+}
+
+.lagu img{
+    width: 100%;
+    margin: 5px 0px;
+    border-radius: 10px;
+}
+
+.bawah{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.suka, .putar {
+    display: flex;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-size: 15px; 
+    gap: 5px; 
+}
+
+.suka i {
+    color: #ab1212;
+}
+
+.putar i {
+    color: #1c4b68;
+}
