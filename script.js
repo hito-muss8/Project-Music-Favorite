@@ -1,5 +1,5 @@
 //Membuat 3 data array lagu favorit (judul, penyanyi, likes, plays)
-  const lagu = [
+  var lagu = [
     ['Mangu', 'Fourtwnty', 5000, 8000, 'mangu.png'],
     ['Bunga hati', 'Salma Salsabil', 6200, 7500, 'salma.png'],
     ['Lesung Pipi', 'Raim LaOde', 2500, 3500, 'raim.png'],
